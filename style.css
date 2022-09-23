@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+}
+.con{
+    background-color: gray;
+
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(11,200px);
+    text-align: center;
+}
+.box{
+
+    background-color: rgba(0, 0, 0, 0.801);
+}
+.box1{
+    grid-area: span 1/ span 7;
+}
+.box2{
+    grid-area: 1/1 /span 12;
+    background-color: rgba(0, 0, 0, 0.801) ;
+} 
+.mov{
+    display: grid;
+    grid-area: span 11 /span 7 ;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(6,1fr);
+}
+a{
+    text-align: center;
+    color: white;
+ 
+}
+.a{
+    display: grid;
+    grid-gap: 40px;
+    
+   
+}
